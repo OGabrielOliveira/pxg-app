@@ -1,24 +1,52 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button, Container, Navbar, Row, Col, Card, CardGroup, CardImg } from 'react-bootstrap';
+import { run as runHolder } from 'holderjs/holder';
+import { useEffect } from 'react';
+import { Card1 } from './components/Card1'
+import { Card2 } from './components/Card2'
+
+import './styles/index.scss';
 
 function App() {
+  useEffect(() => { runHolder('image-class-name'); });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Navbar bg='dark' variant='dark'>
+        <Container>
+          <Navbar.Brand>
+            Pokeapp
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
+
+      <main className='container-fluid mt-3'>
+
+        <div>
+
+          <Row xs={1} md={3}>
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
+            <Card2 />
+          </Row>
+
+        </div>
+      </main>
+
+      <footer>
+
+      </footer>
     </div>
   );
 }

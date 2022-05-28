@@ -1,0 +1,43 @@
+.pokemon-card-container-2{
+    max-width: 350px;
+
+    border: 1px solid #aaa;
+
+    .variacao{
+        margin-bottom: 0px;
+        line-height: 0.5;
+        small{
+            margin-right: 5px;
+            font-size: 15px;
+        }
+    }
+
+    .types{
+        small{
+            margin-right: 5px;
+            padding: 2px 10px;
+            border-radius: 5px;
+        }
+
+        small.type-normal{
+            background-color: #a4acaf;
+            color: black;
+        }
+
+        small.type-fighting{
+            background-color: #d56723;
+            color: white;
+        }
+    }
+
+    .dex-number{
+        margin-top: 2px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #919191;
+    }
+
+    .card-title{
+        letter-spacing: 1.2px;
+    }
+}

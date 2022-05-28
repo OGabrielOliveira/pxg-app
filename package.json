@@ -10,9 +10,17 @@
     "@types/node": "^16.11.36",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
+    "@types/react-holder": "^1.0.34",
+    "bootstrap": "^5.1.3",
+    "holderjs": "^2.9.9",
     "react": "^18.1.0",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
+    "react-holder": "^1.0.0",
+    "react-holder-component": "^1.0.5",
+    "react-image-holder": "^2.0.1",
     "react-scripts": "5.0.1",
+    "sass": "^1.52.1",
     "typescript": "^4.7.2",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/holderjs": "^2.9.2"
   }
 }
