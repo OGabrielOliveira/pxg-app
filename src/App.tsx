@@ -1,9 +1,8 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Container, Navbar, Row, Col, Card, CardGroup, CardImg } from 'react-bootstrap';
+import { Container, Navbar, Row } from 'react-bootstrap';
 import { run as runHolder } from 'holderjs/holder';
 import { useEffect } from 'react';
-import { Card1 } from './components/Card1'
+// import { Card1 } from './components/Card1'
 import { Card2 } from './components/Card2'
 
 import './styles/index.scss';
